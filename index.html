@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vue gallery</title>
+    <link rel="stylesheet" href="themes/light.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+.middle-container {
+        text-align: center;
+        display: block;
+}
+/*homepage background*/
+ #content_home.ui-content{
+    background-image:url("assets/pictures/CONTACT.gif");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*homepage background*/
+#content_about.ui-content{
+    background-image:url("assets/pictures/ABOUT.gif");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* booking background */
+#content_booking.ui-content{
+    background-image:url("assets/pictures/BOOKING.gif");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+</style>
+</head>
+<body>
+
+        <div data-role="page" data-title="homepage" data-theme="a" id="homepage">
+
+                <div data-role="header" data-position="fixed" data-theme="a" id="home_head" class="ui_head">
+                    <span class="middle-container">  
+                        <br> 
+                    <img src="assets/pictures/solart_logo.jpg" alt="solart_logo" style="width:40%; height:40%">
+                    <br>
+                    </span> 
+                </div><!-- /header -->
+                
+                <div class="ui-grid-d">
+                        <div class="ui-block-a" style="width:20%" align="center"><a href="#nav-panel" data-role="button" data-icon="user">Artist</a>
+                        </div>
+                        <div class="ui-block-b" style="width:20%" align="center"><a href="http://solart.ie/index.cfm" data-role="button" data-icon="eye">SOL Art</a>
+                        </div>
+                        <div class="ui-block-c" style="width:20%" align="center"><a href="#homepage" data-role="button" data-icon="home">Home</a>
+                        </div>
+                        <div class="ui-block-d" style="width:20%" align="center"><a href="#bookingpage" data-role="button" data-icon="mail">Booking</a>
+                        </div>
+                        <div class="ui-block-e" style="width:20%" align="center"><a href="#aboutpage" data-role="button" data-icon="info">About</a>
+                        </div>
+                        
+                </div>
+            
+                <div data-role="main" data-theme="a" id="content_home" class="ui-content">
+                        <!-- <img src="assets/homepage/bg.gif" alt="sol art optimised photoshop" align="middle"> -->
+                    
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                </div><!-- /content -->
+
+                <div data-role="main" data-theme="a" id="plug_for_invite" class="ui-content">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                                <span class="middle-container">  
+                                <img src="assets/pictures/map.svg" alt="map" style="width:5%; height:5%">
+                                </span>
+                        <br>
+                        <br>
+                            <span class="middle-container">  
+                            <a href="https://www.google.com/maps/place/Sol+Art+Gallery/@53.3461961,-6.2586644,19z/data=!4m5!3m4!1s0x48670e9bb06328e1:0xffc16ed7ad7fb0bb!8m2!3d53.3462778!4d-6.2582487"><img src="assets/pictures/map.png" alt="click on map" style="width:50%; height:50%"></a>
+                            </span>
+                        <br>
+                        
+                            <p style="text-align:center">We will be exhibiting at VUE from the<br>
+                                                         8-10th November with the Private Preview on Thursday 7th  (6-8pm) <br>
+                                                         To book your free tickets click on link below. <br>
+                            </p>
+                        <br>
+                        <fieldset class="ui-grid-a">
+                                <div class="ui-block-a" style="width:50%" align="center"><a href="https://drive.google.com/file/d/1M1SsOk9XoXdgokvN5UuhF8Ahtt6t4WZ7/view?ts=5db82562" data-role="button" data-icon="heart">Private View</a>
+                                </div>
+                                <div class="ui-block-b" style="width:50%" align="center"><a href="https://drive.google.com/file/d/1KGVVx1Fu7N0_ZzdVosOo4Qvc27WLZbCB/view" data-role="button" data-icon="eye">General Admission</a>
+                                </div>
+                        </fieldset>
+
+                </div><!-- /content -->
+                
+                <div data-role="panel" data-display="push" data-theme="a" id="nav-panel">
+                    <ul data-role="listview">
+                        <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=737">Alea Pinar Du Pre</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=741">Daniel Chester</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=739">Luis Bivar</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=665">Aidan Harte</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=742">Paul James</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=664">Jimmy Lawlor</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=696">Henry McGrane</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=751">Eva O'Donovan</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=707">Reinder Ourensma</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=760">Fergus Ryan</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=746">Anthony Wigglesworth</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=678">Rimi Yang</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=758">Rory Bresnihan</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=749">Jon Doran</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=733">Duda</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=764">Michael Heffernan</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=757">Du Jingze</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=712">Niall Leavy</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=762">Ani Mollereau</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=670">Liam O'Neill</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=763">Silvio Porzionato</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=754">Igor Taritas</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=747">Anneke Wilbrink</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=672">James Brohan</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=755">Paul Doran</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=675">Katarzyna Gajewska</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=750">Gillian Hyland</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=679">Paul Kerr</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=676">Kevin McAleenan</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=759">Martin Mooney</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=709">Francis O'Toole</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=686">Padraic Reaney</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=701">J B Vallely</a></li>
+                            <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=752">Didem Yagci</a></li>       
+                    </ul>
+                </div><!-- /panel -->
+                <div data-role="footer">
+                    <h5>© Mk Chong</h5>
+                </div><!-- /footer -->
+            </div><!-- /homepage -->
+
+
+
+            <!--about page-->
+            <div data-role="page" data-title="aboutpage" data-theme="a" id="aboutpage">
+
+                    <div data-role="header" data-position="fixed" data-theme="a" id="home_head" class="ui_head">
+                        <span class="middle-container">  
+                            <br> 
+                        <img src="assets/pictures/solart_logo.jpg" alt="solart_logo" style="width:40%; height:40%">
+                        <br>
+                        </span> 
+                    </div><!-- /header -->
+                    
+                    <div class="ui-grid-d">
+                            <div class="ui-block-a" style="width:20%" align="center"><a href="#nav-panel" data-role="button" data-icon="user">Artist</a>
+                            </div>
+                            <div class="ui-block-b" style="width:20%" align="center"><a href="http://solart.ie/index.cfm" data-role="button" data-icon="eye">SOL Art</a>
+                            </div>
+                            <div class="ui-block-c" style="width:20%" align="center"><a href="#homepage" data-role="button" data-icon="home">Home</a>
+                            </div>
+                            <div class="ui-block-d" style="width:20%" align="center"><a href="#bookingpage" data-role="button" data-icon="mail">Booking</a>
+                            </div>
+                            <div class="ui-block-e" style="width:20%" align="center"><a href="#aboutpage" data-role="button" data-icon="info">About</a>
+                            </div>
+                            
+                    </div>
+                
+                    <div data-role="main" data-theme="a" id="content_about" class="ui-content">
+                            <!-- <img src="assets/homepage/bg.gif" alt="sol art optimised photoshop" align="middle"> -->
+                        
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    </div><!-- /content -->
+    
+                    <div data-role="main" data-theme="a" id="plug_for_invite" class="ui-content">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                                    <span class="middle-container">  
+                                    <h1>ABOUT SOL ART</h1>
+                                    </span>
+                            <br>
+                            <br>
+                                <span class="middle-container">  
+                                <a href=#><img src="assets/pictures/solartbuilding.jpeg" alt="click on map" style="width:50%; height:50%"></a>
+                                </span>
+                            <br>
+                            
+                                <p>
+                                        Sol Art Gallery is family run business with Martin and son Jay having established the gallery in Dublin in 2010. The gallery represents and promotes the work of national and international, emerging and mid-career and established visual artists. <br>
+                                        <br>
+                                        The new gallery is centrally located on D'Olier Street which is a 5 minute walk from Trinity College and Dublin's main shopping district Grafton St. The gallery blends a monthly gallery exhibition list throughout the year with a calendar of global art fairs. <br>
+                                        <br>
+                                        From 2010-2014 Sol Art held major exhibitions within the old gallery on Dawson St and appeared at art fairs in London, New York, Edinburgh, Dublin, Milan and Singapore
+                                        In June 2012 Sol Art co-hosted the inaugural Dublin Biennial. <br>
+                                        <br>
+                                        Early 2015 saw the emergence of London Irish Art, a multi-disciplinary initiative, co-hosted by Sol Art, displaying over 40 visual artists in the impressive 3000 square foot space of Central Hall, Westminster. Over 500 people attended the opening night. <br> 
+                                        <br>          
+                                        Actively promoting and representing our artists to the international market, Sol Art aspires to be global players on the world stage of contemporary art. While keeping there feet firmly placed in the Irish and UK markets, 2015 also saw the gallery travelling to Korea, Hong Kong and Singapore. The 2016 calendar included another strong line up of gallery exhibitions and international art fairs, including New York in the autumn of 2016. <br>  
+                                        <br>       
+                                        2017 marked another year of success both on the national and international stage. The notable gallery shows included exciting Dublin pop artist, Duda whose work is now exhibited in a permanent collection in One World Trade Centre in New York. Duda painted a 3000sqft homage to the people who lost their lives. 'Breakfast Epiphanies' opened in the gallery on December 7th and was attended by well over 150 people. <br>  
+                                        <br>          
+                                        Alea Pinar Du Pre's first solo exhibition in Ireland, 'FaceTime' was another exciting show that we hosted in 2017. Her work has taken the Irish market by storm with her pop portraiture and mixed media techniques a brand new take on portraiture. <br>     
+                                        <br>                               
+                                        On the international stage, Sol Art continued its success in exhibitions in London, New York and Chicago at SOFA. <br>      
+                                        <br>   
+                                        Having moved to a fantastic new 3500 Sq ft modern building in March of 2018, Martin and Jay intend to continue putting on significant exhibitions in the gallery while also broadening the Sol Art brand on the international stage. <br>      
+                                        Enjoy the collection. <br>
+                                        <br>
+                                        <br>
+                                        Unit 3, The Times Building, D'Olier Street, Dublin 2, +353 1 6750972, info@solart.ie
+                                        <br>
+                                        <br>
+                                        For any queries please contact us at +353 (0)1 675 0972.
+                                        <br>
+                                        <br>
+                                        or email us:
+                                        <br>
+                                        <br>
+                                </p>
+                            <br>
+                            <fieldset class="ui-grid-a">
+                                    <div class="ui-block-a" style="width:50%" align="center"><a href="mailto: info@solart.ie" data-role="button" data-icon="mail">Email Us</a>
+                                    </div>
+                                    <div class="ui-block-b" style="width:50%" align="center"><a href="https://www.google.com/maps/place/Sol+Art+Gallery/@53.3461961,-6.2586644,19z/data=!4m5!3m4!1s0x48670e9bb06328e1:0xffc16ed7ad7fb0bb!8m2!3d53.3462778!4d-6.2582487" data-role="button" data-icon="location">Location</a>
+                                    </div>
+                            </fieldset>
+    
+                    </div><!-- /content -->
+                    
+                    <div data-role="panel" data-display="push" data-theme="a" id="nav-panel">
+                        <ul data-role="listview">
+                            <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=737">Alea Pinar Du Pre</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=741">Daniel Chester</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=739">Luis Bivar</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=665">Aidan Harte</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=742">Paul James</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=664">Jimmy Lawlor</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=696">Henry McGrane</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=751">Eva O'Donovan</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=707">Reinder Ourensma</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=760">Fergus Ryan</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=746">Anthony Wigglesworth</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=678">Rimi Yang</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=758">Rory Bresnihan</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=749">Jon Doran</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=733">Duda</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=764">Michael Heffernan</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=757">Du Jingze</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=712">Niall Leavy</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=762">Ani Mollereau</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=670">Liam O'Neill</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=763">Silvio Porzionato</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=754">Igor Taritas</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=747">Anneke Wilbrink</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=672">James Brohan</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=755">Paul Doran</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=675">Katarzyna Gajewska</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=750">Gillian Hyland</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=679">Paul Kerr</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=676">Kevin McAleenan</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=759">Martin Mooney</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=709">Francis O'Toole</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=686">Padraic Reaney</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=701">J B Vallely</a></li>
+                                <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=752">Didem Yagci</a></li>       
+                        </ul>
+                    </div><!-- /panel -->
+                    <div data-role="footer">
+                        <h5>© Mk Chong</h5>
+                    </div><!-- /footer -->
+                </div><!-- /about page -->
+
+
+                <!--booking page-->
+                <div data-role="page" data-title="booking" data-theme="a" id="bookingpage">
+
+                        <div data-role="header" data-position="fixed" data-theme="a" id="home_head" class="ui_head">
+                            <span class="middle-container">  
+                                <br> 
+                            <img src="assets/pictures/solart_logo.jpg" alt="solart_logo" style="width:40%; height:40%">
+                            <br>
+                            </span> 
+                        </div><!-- /header -->
+                        
+                        <div class="ui-grid-d">
+                                <div class="ui-block-a" style="width:20%" align="center"><a href="#nav-panel" data-role="button" data-icon="user">Artist</a>
+                                </div>
+                                <div class="ui-block-b" style="width:20%" align="center"><a href="http://solart.ie/index.cfm" data-role="button" data-icon="eye">SOL Art</a>
+                                </div>
+                                <div class="ui-block-c" style="width:20%" align="center"><a href="#homepage" data-role="button" data-icon="home">Home</a>
+                                </div>
+                                <div class="ui-block-d" style="width:20%" align="center"><a href="#bookingpage" data-role="button" data-icon="mail">Booking</a>
+                                </div>
+                                <div class="ui-block-e" style="width:20%" align="center"><a href="#aboutpage" data-role="button" data-icon="info">About</a>
+                                </div>
+                                
+                        </div>
+                    
+                        <div data-role="main" data-theme="a" id="content_booking" class="ui-content">
+                                <!-- <img src="assets/homepage/bg.gif" alt="sol art optimised photoshop" align="middle"> -->
+                            
+                            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div><!-- /content -->
+        
+                        <div data-role="main" data-theme="a" id="plug_for_invite" class="ui-content">
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                        <span class="middle-container">  
+                                        <h1>Book an appointment</h1>
+                                        </span>
+                                <br>
+                                
+                                        <!-- name --> 
+                                    <label for="text-basic">Name:</label>
+                                    <input type="text" name="text-basic" id="text-basic" value="">
+
+                                        <!-- email --> 
+                                    <label for="text-basic">Email:</label>
+                                    <input type="text" name="text-basic" id="text-basic" value="">
+                                        
+
+                                        <!-- Telephone --> 
+                                    <label for="tel">Telephone:</label>                                   
+                                    <input type="tel" name="tel" id="tel" value="">
+
+                                    <!-- Appointment Date --> 
+                                    <label for="date">Appointment Date:</label>
+                                    <input type="date" name="date" id="date" value="">
+
+                                    <!-- terms and services --> 
+                                    <fieldset data-role="controlgroup">
+                                        <legend>I agree and consent to the privacy policy of sharing my information with solart.ie</legend>
+                                            <label for="yes">Yes</label>
+                                            <input type="radio" name="yes" id="yes" value="yes">
+                                    </fieldset>
+
+                                <br>                             
+                                <a href=# class="ui-shadow-icon ui-btn ui-shadow ui-corner-all ui-btn-b ui-icon-delete ui-btn-icon-left">Submit</a>
+                                
+        
+                        </div><!-- /content -->
+                        
+                        <div data-role="panel" data-display="push" data-theme="a" id="nav-panel">
+                            <ul data-role="listview">
+                                <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=737">Alea Pinar Du Pre</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=741">Daniel Chester</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=739">Luis Bivar</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=665">Aidan Harte</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=742">Paul James</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=664">Jimmy Lawlor</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=696">Henry McGrane</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=751">Eva O'Donovan</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=707">Reinder Ourensma</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=760">Fergus Ryan</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=746">Anthony Wigglesworth</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=678">Rimi Yang</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=758">Rory Bresnihan</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=749">Jon Doran</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=733">Duda</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=764">Michael Heffernan</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=757">Du Jingze</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=712">Niall Leavy</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=762">Ani Mollereau</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=670">Liam O'Neill</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=763">Silvio Porzionato</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=754">Igor Taritas</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=747">Anneke Wilbrink</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=672">James Brohan</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=755">Paul Doran</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=675">Katarzyna Gajewska</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=750">Gillian Hyland</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=679">Paul Kerr</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=676">Kevin McAleenan</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=759">Martin Mooney</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=709">Francis O'Toole</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=686">Padraic Reaney</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=701">J B Vallely</a></li>
+                                    <li><a href="http://solart.ie/Artist-Detail.cfm?ArtistsID=752">Didem Yagci</a></li>       
+                            </ul>
+                        </div><!-- /panel -->
+                        <div data-role="footer">
+                            <h5>© Mk Chong</h5>
+                        </div><!-- /footer -->
+                    </div><!-- /homepage -->
+            
+
+
+
+
+
+
+
+ 
+    
+</body>
+</html>
